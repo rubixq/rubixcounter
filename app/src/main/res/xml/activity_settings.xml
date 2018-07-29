@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Connection Settings">
+        <EditTextPreference
+            android:key="rubix_core_host"
+            android:summary="Provide link to rubix core server"
+            android:title="Rubix Core Host" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Application Settings">
+        <EditTextPreference
+            android:key="counter_number"
+            android:summary="Provide a counter number"
+            android:title="Counter Number" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Security Settings">
+        <EditTextPreference
+            android:key="admin_password"
+            android:summary="Provide password for administrative changes"
+            android:title="Administrative Password" />
+    </PreferenceCategory>
+</PreferenceScreen>
