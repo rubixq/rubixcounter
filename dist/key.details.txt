@@ -1,0 +1,2 @@
+Alias=RubixCounter
+Password=Nf@2el3w
